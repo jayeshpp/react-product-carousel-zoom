@@ -1,0 +1,62 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+/*Swipe CSS*/
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.swipe-wrap > div img {
+  width: 100%;
+}
+.swipe-wrap > div video {
+  width: 100%;
+}
+.slider-thumbnails .slider-thumbnails-inner {
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 0px 5px 7px;
+}
+.slider-thumbnails .slider-thumbnails-inner > div {
+  width: 100px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  margin-right: 5px;
+  display: inline-block;
+}
+.slider-thumbnails .slider-thumbnails-inner > div:last-child {
+  margin-right: 0px;
+}
+.slider-thumbnails .slider-thumbnails-inner > div.active {
+  border-color: darkgrey;
+}
+.slider-thumbnails .slider-thumbnails-inner > div img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.slider-thumbnails {
+  color: white;
+}
+.fullscreen-slider {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  background: white;
+}

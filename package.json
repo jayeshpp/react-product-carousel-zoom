@@ -1,0 +1,42 @@
+{
+  "name": "react-product-carousel-zoom",
+  "version": "1.0.0",
+  "description": "Product carousel with touch zoom",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4",
+    "hammerjs": "^2.0.8"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "react": "^15.5.4",
+    "react-router-dom": "^4.2.2",
+    "swipejs": "^2.2.11",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayeshpp/react-product-carousel-zoom.git"
+  },
+  "author": "Jayesh",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayeshpp/react-product-carousel-zoom/issues"
+  },
+  "homepage": "https://github.com/jayeshpp/react-product-carousel-zoom#readme"
+}
